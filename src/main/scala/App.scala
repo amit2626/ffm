@@ -26,8 +26,6 @@ object App extends scala.App {
       bestGatherersOfSpecificFruitByMonth(gatherers).foreach(println)
       println(">>>>>>>>>>")
       bestGathererOfSpecificFruitsByYear(gatherers).foreach(println)
-      println(">>>>>>>>>>>>>>>>")
-      earnings.foreach(println)
       println(">>>>>>>>>>>>>>>>>")
       bestEarningFruitByMonth(earnings).foreach(println)
       println(">>>>>>>>>>>>>>>>>")
